@@ -1,0 +1,14 @@
+{
+    "extraBabelPlugins": [
+        ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }]
+    ],
+    "proxy": {
+        "/apis": {
+            "target": "https://cnodejs.org",
+            "changeOrigin": true,
+            "pathRewrite": { "^/apis": "" }
+        }
+    },
+    "publicPath": "/"
+    
+}

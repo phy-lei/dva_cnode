@@ -1,0 +1,35 @@
+.home{
+    height: 108%;
+    background-color: #e1e1e1;
+}
+:global(#root .ant-layout-content .ant-list){
+    width: 80%;
+    min-height: 760px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+:global(#root .ant-layout-content .ant-list .bigImg){
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+}
+:global(#root .ant-layout-content .ant-list .smallImg){
+    height: 18px;
+    width: 18px;
+    vertical-align: middle;
+    margin-right: .5em;
+    border-radius: 3px;
+}
+:global(#root .ant-layout-content .ant-list .space){
+    padding-left: 20px;
+    padding-right: 20px;
+}
+:global(#root .ant-layout-content .ant-list .article){
+    cursor:pointer;
+}
+:global(#root .ant-layout-content .ant-list .article:hover){
+    text-decoration:underline
+}
+:global(#root .ant-layout-content .ant-list li:hover){
+    background-color: #f6f6f6;
+}
