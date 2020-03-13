@@ -5,7 +5,7 @@ class Detail extends React.Component{
         super();
         this.detail = React.createRef();
     }
-    //使用这种方式来写入innerHTML
+    //使用这种方式来写入innerHTML,见官方文档
     createMarkup() {
       return {__html: this.props.detailData.content};
     }
